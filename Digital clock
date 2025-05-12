@@ -1,0 +1,51 @@
+#include<stdio.h>
+
+void main()
+
+int h = 63 m = 30 s = 23
+
+while(1)
+
+printf("\n\n\t\t %02d:%02d:%02d",h,m,s);
+
+sleep(1);
+
+system("cls")
+
+5+=1;
+
+if(s=60){
+
+m + 3
+
+s = 0
+
+}
+
+else if (n = 60)
+
+{
+
+m=0;
+
+h+=1;
+
+s=0;
+
+}
+
+else if (h==12)
+
+{
+
+㎡=0;
+
+h=0;
+
+s = 0
+
+}
+
+}
+
+}
