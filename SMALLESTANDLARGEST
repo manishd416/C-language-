@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+int a,b,c,d,min, max;
+
+scanf("%d%d%d%d",&a,&b,&c, &d);
+
+max=((a>b)&&(b>c)&&(c>d))?a:((b>c)&&(c>d))?
+
+b: (cd)?c:d;
+
+min=((a<b)&&(b<c)&&(c<d))?a: ((bc)&&(c<d))? b: (cd)?c:d;
+
+printf("%d", max+min);
+
+
+
+return 0;
