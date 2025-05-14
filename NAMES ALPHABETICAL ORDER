@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    int a;
+    scanf("%d",&a);
+    char names[a][20],temp[20];
+    printf("Enter the names:");
+    for(int i=0;i<a;i++){
+        scanf("%s",names[i]);
+    }
+    for(int i=0;i<a-1;i++){
+        for(int j=i+1;j<a;j++){
+            if(strcmp(names[i],names[j])>0){
+                strcpy(temp,names[i]);
+                strcpy(names[i],names[j]);
+                strcpy(names[j],temp);
+            }
+        }
+    }
+    for(int i=0;i<a;i++){
+        printf("\n%d %s",i+1,names[i]);
+    }
+}
